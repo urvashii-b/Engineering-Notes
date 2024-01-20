@@ -1,0 +1,259 @@
+SOFTWARE ENGINEERING - ESA
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+UNIT 1
+- Need for SE
+- Software
+- SE
+- Differences between CSE and SE
+- Fundamental drivers of SE: industrial strength software, expensive, late and unreliable, can influence life/death, diversity, heterogeneity, business and social change, security and trust, quality and productivity-> FLURPS
+- Why is SE required
+- Software lifecycle: entry, exit, task and its deliverables, dependencies, constraints
+- Software process, action, task
+- SDLC
+- PDLC - DPTSDTMP
+- Product Lifecycle: intro, growth, maturity, discontinuance, obsolescence
+- PMLC
+- SMLC
+- Legacy SDLCs – Waterfall, V, Prototype, Incremental & Iterative(evolutionary) Models
+- Agile Philosophy
+- Agile Manifesto
+- Scrum: roles, artifacts, events, rules
+- XP - pair programming, TDD, customeron site, small batches, continuous integration, collective code ownership
+- Lean agile - eliminate waste, kaizen: adapt and improve
+- CBSE - Component Based Software Engineering: REUSE
+- Software Component
+- Component Development Stages
+- Component Model: interfaces, usage, deployment
+- Product Lines
+- Product Lifecycle Reuse Principles
+- Product Line Engineering Framework: domain engineering + application engineering
+- Requirements Engineering - Introduction
+- Cost of Repair as a Function of Time
+- Defining a Requirement
+- Properties of Requirement: individual (CCCUTFVPQ) and set
+- Feasibility Study: practicality of the project
+- Requirement Engineering Process: 
+	1. Requirement Elicitation 
+	2. Requirement Analysis
+	3. Requirement Specification
+	4. Requirement Validation
+- Process of Requirement Elicitation
+- Elicitation Techniques: active and passive
+- Process of Requirement Analysis
+	- understanding the process and product in depth, organizing into coherent clusters, model req, analyse req(fish bone),recognize and resolve conflicts, negotiate req, prioritize (MOSCOW, pareto rule), identify risks ,COTS and refine req
+- UML
+- Conceptual UML Model
+- Using a Use Case diagram
+- Requirement Specification
+- Documentation Characteristics
+- SRS- functionality, non functionality, attributes, external interfaces, design constraints
+- Requirement Validation
+- Requirement Management
+- RTM: Requirements Traceability Matrix- Forward Tracing, Backward Tracing
+- Requirement Change Management
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+UNIT 2
+- Fundamentals of Software Project Management
+- Software Projects & their characteristics
+- Software Project Management
+- Quality of Project - Scope, Cost and Time
+- Software Project Management Lifecycle:
+	1. Initiation & Approval
+	2. Project Planning 
+	3. Project Monitoring & Control
+	4. Project Closure
+- Software Project Planning
+- Project Planning Perspectives
+- Steps in Project Planning - UPODWSIDP
+- Outcome & Roles of a Project Plan
+- Contents of a Project Plan
+- Project Monitoring & Control
+- Dimensions - Time, Information, Organization, Quality, Cost & Infrastructure
+- Context of Software Design
+- Software Architecture
+- Importance of Software Architecture
+- Characteristics of Software Architecture - quality driven, recurring styles, conceptual integrity, stakeholder's POV
+- Factors that Influence Software Architecture- data profile, audience, business priority, functional requirements, architectural standards, initial state, cost constraints
+- Architects and their Role
+- Components of Different Teams
+- Architectural Views, Styles & Patterns
+- Combined View
+- Quality Attribute Trade Off
+- Architectural Conflicts
+- Design Issues & Decisions
+- Generalized Model for Architecting
+- Decomposition
+- cohesion-> dependency, coupling-> connectivity: low coupling + high cohesion desired
+- Architectural Views
+- Module View Point
+- Component-and-Connector View Point
+- Allocation View Point
+- Krutchen's View Point
+- Architectural Styles
+- Architectural Patterns
+- Tiered Architecture: monolithic, 2 tiered
+- Model View Controller
+- Example of Architectural Views
+- Importance of Styles & Patterns
+- Choice of Option
+- Architectural Document
+- Introduction to Software Design
+- Design Principles
+- Techniques that enable design
+- Key Issues
+- Design Methods 
+- Data Flow Diagrams (DFDs) 
+- Top Level DFD 
+- First Level Decomposition 
+- Second Level Decomposition
+- Minispecs
+- Data dictionary entries
+- Transform centred design
+- Design pattern
+- singleton pattern
+- anti pattern
+- Contrasting Structured and Object Oriented Approaches
+- Service Oriented Architecture (SOA)
+- Benefits of SOA
+- Services
+- Characteristics of Services
+- SOA Rules
+- Example : Openstack
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+UNIT 3
+
+CANT DO THIS UNIT FFS
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+UNIT 4
+- Introduction to Testing
+- Verification - static
+- Validation - dynamic
+- Terminologies - defect, bug, failure, issue
+- Characterising Testing
+- Black Box Testing - functional
+- White Box Testing - structural
+- Static Testing
+- Cyclomatic Complexity -> M = E – N + 2P
+- Dynamic Testing
+- Dynamic Testing Classification 
+	1.Code based: control flow, data flow
+	2.Approach based: intuition, usage, specification,equivalence partitioning and boundary value analysis
+	3.Mode of testing: manual, automated
+4.Levels of Testing
+- Unit Testing
+- Integration Testing - big bang, iterative approach
+- System Testing & Varieties
+- Acceptance Testing
+- Alternate Categorization: alpha and beta testing
+- Varieties of System Testing:
+	1. Smoke and sanity testing
+	2. Regression testing
+	3. Installation & Uninstallation Testing 
+	4. Functional & Non Functional Testing
+	5. Destructive Testing
+	6. Software Performance Testing
+	7. Load tests
+	8. Stress tests
+- Test Planning Generics
+- Test Planning Process
+- Product Testing Scope
+- Test Adequacy
+- Testing Strategy
+- Testing Types Chosen
+- Test Execution Environment
+- Automation & Tools
+- Risk Analysis & Contingency Planning
+- List of Deliverables
+- Creating Detailed Test Schedule
+- Planning, Identification & Allocation of Resources
+- Identification of Milestones & Risks
+- Measures & Metrics
+- Typical Test Plan
+- Structure of Testing Organization
+- Roles & Responsibilities: Test Director, Test Manager, Test Infrastructure Manager, Test Automation Manager, Test Architect, Test Analyst, Software Test Engineer 
+- Test Process
+- Software Test Execution
+- Test Cases
+- Value Proposition of Writing Test Cases
+- Test Case Types: +,-,destructive
+- Best Practices
+- Test Suites: execution status-> active, in-progress, completed
+- Test Related Measurements/Metrics
+- Metric Characteristics
+- Software Test Measurements
+- Product Related Measures:
+	1. Fault Density- Ratio of number of faults found to size of the programs 
+	2. MTBF- Mean Time Between Failure is based on statistical analysis to indicate probability of failure
+	3. Failure Rate- Inverse of MTBF 
+	4. Defect Distribution % of Defects attributed to a specified phase in SDLC 
+	5. Defect Density of Modules- Ratio of number of faults found in module to total faults found in product 
+	6. Defect Leakage Test Efficiency = [(Total number of defects found in UAT) / (Total number of defects found before UAT )] x 100
+- Product Related Metrics:
+	1. Mutation Score- no. of killed mutants to the total number of mutants
+- Software Reliability
+- Test Driven Development
+- Key Issues in Software Testing 
+	- Test Case Selection
+- Selenium
+- JUnit
+- Apache JMeter
+- Disadvantages & Advantages of Selenium, JUnit, JMeter
+
+- Maintenance Activities
+- Maintenance Costs
+- Issues in Software Maintenance
+- SMLC
+- Tips for Maintenance
+- Categories of Maintenance: preventive, perfective, corrective, adaptive
+- Maintenance Process Activities
+- Reverse Engineering
+- Re-Engineering
+- Refactoring & its Types
+- Global Environment
+- Characteristics of Global S/W Development- distances(geographic, linguistic, cultural, temporal)
+- Types of Development- co-located, multisite, global
+- Rationale and Challenges for Global Software Development
+- Hacking
+- Hacking v/s Software Engineering
+- Ethics - personal, professional, business
+- Ethical Frameworks and Principles: Principle of Beneficence, least harm, respect for autonomy
+- Intellectual Property
+- Licensing
+- Applications in the IT infrastructure use ITSM processes 
+- IT Systems Management and IT Operations 
+- IT Operations Activities can include
+- IT Infrastructure Systems Management - Intro
+- IT Infrastructure Systems Management - Objectives: stability, responsiveness
+- IT Infrastructure Systems Management - Context
+- ITSM Processes: Availability Management, Performance, Problem Management, Capacity Planning, Storage Management, Security, Production Acceptance, Network Management, Business Continuity, Change Management, Configuration Management, Facilities Management
+- ITSM Frameworks
+- ITIL – IT Infrastructure Library
+- Origins of ITIL
+- Quality Approach and Standards
+- ITIL – 3: IT Service Lifecycle
+- ITIL V4 - Holistic Service Management
+- Common Myths concerning implementation of ITIL
+- DevOps
+- DevOps : Concepts and Terminologies
+- DevOps : Supporting Pillars
+- DevOps Pipeline : Continuous Integration
+- DevOps Pipeline : Continuous Delivery
+- DevOps Pipeline : Continuous Testing
+- DevOps Pipeline : Continuous Deployment
+
+
+
+
+
+
+
+
+
+
+	
